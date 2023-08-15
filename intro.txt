@@ -1,0 +1,11 @@
+
+
+List the requirements, in this case you have a total of 4 requirements
+a) Get data -> input the numbers that you want to put into calculator so need a keypad to input the numbers so 0-9
+b) Choose an operator -> choosing operator to use on the number so need + - / *
+c) Get the result -> need an area where the result is given so =
+d) Reset the screen -> clears the calculator so that new inputs can be put in 
+
+
+Figma link:
+https://www.figma.com/file/h9gVS59djixBE2poaOiQ4j/Calculator-LOFI?type=design&node-id=0%3A1&mode=design&t=mvcZQJrANMIB9oEA-1

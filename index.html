@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="display"></div>
+        <div class="buttons">
+                <button type="button" id="ac" onclick="allClearClick()">AC</button>
+                <button type="button" id="c">C</button>
+                <button type="button" id="del" onclick="deleteButtonClick()">DEL</button>
+                <button type="button" class="operation" onclick="operationButtonClick('+')">+</button>
+                <button type="button" class="number" onclick="numberButtonClick(7)">7</button>
+                <button type="button" class="number" onclick="numberButtonClick(8)">8</button>
+                <button type="button" class="number" onclick="numberButtonClick(9)">9</button>
+                <button type="button" class="operation" onclick="operationButtonClick('-')">-</button>
+                <button type="button" id="number" onclick="numberButtonClick(4)">4</button>
+                <button type="button" id="number" onclick="numberButtonClick(5)">5</button>
+                <button type="button" id="number" onclick="numberButtonClick(6)">6</button>
+                <button type="button" id="operation" onclick="operationButtonClick('*')">x</button>
+                <button type="button" id="number" onclick="numberButtonClick(1)">1</button>
+                <button type="button" id="number" onclick="numberButtonClick(2)">2</button>
+                <button type="button" id="number" onclick="numberButtonClick(3)">3</button>
+                <button type="button" id="operation" onclick="operationButtonClick('/')">÷</button>
+                <button type="button" id="number" onclick="numberButtonClick(0)">0</button>
+                <button type="button" id="number">.</button>
+                <button type="button" id="number">+/-</button>
+                <button type="button" id="equalbutton" onclick="solve()">=</button>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
